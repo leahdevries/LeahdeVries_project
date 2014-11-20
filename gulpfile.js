@@ -47,7 +47,7 @@ gulp.task('watch', function() {
 gulp.task('styles', function() {
 
   gulp.src('./src/assets/styles/index.sass')
-    .pipe(sass())
+    .pipe(sass({ sourceComments: 'normal' }))
     .pipe(rename('main.css'))
     .pipe(gulp.dest('./public/assets/styles/'))
 

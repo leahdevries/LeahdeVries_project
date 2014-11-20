@@ -1,16 +1,21 @@
+/* line 4, /home/ubuntu/workspace/src/assets/styles/index.sass */
 body {
   font-family: Helvetica, sans-serif;
   color: grey; }
 
+/* line 10, /home/ubuntu/workspace/src/assets/styles/index.sass */
 .container ul#heatmap {
-  color: white; }
+  color: white;
+  background-color: #d3d3d3; }
+/* line 14, /home/ubuntu/workspace/src/assets/styles/index.sass */
 .container ul.tweets {
   overflow-y: auto;
   height: 500px;
   width: 100%; }
+  /* line 19, /home/ubuntu/workspace/src/assets/styles/index.sass */
   .container ul.tweets li {
     border: 0.25px solid grey;
     padding: 20px; }
-
-ul {
+/* line 23, /home/ubuntu/workspace/src/assets/styles/index.sass */
+.container ul {
   list-style-type: none; }
