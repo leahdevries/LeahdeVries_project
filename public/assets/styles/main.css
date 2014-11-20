@@ -1,2 +1,16 @@
 body {
-  font-family: sans-serif; }
+  font-family: Helvetica, sans-serif;
+  color: grey; }
+
+.container ul#heatmap {
+  color: white; }
+.container ul.tweets {
+  overflow-y: auto;
+  height: 500px;
+  width: 100%; }
+  .container ul.tweets li {
+    border: 0.25px solid grey;
+    padding: 20px; }
+
+ul {
+  list-style-type: none; }

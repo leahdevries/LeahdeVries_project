@@ -7,7 +7,7 @@ var fs        = require('fs');
 var gulp      = require('gulp');
 var sass      = require('gulp-sass');
 var jade      = require('gulp-jade');
-var imagemin  = require('gulp-sass');
+var imagemin  = require('gulp-imagemin');
 var rename    = require('gulp-rename');
 
 // ------------------------------------
@@ -25,7 +25,7 @@ var paths     = {
 // Default Task
 // ------------------------------------
 
-gulp.task('default', ['images', 'scripts', 'styles', 'templates']);
+gulp.task('default', ['images', 'scripts', 'styles']);
 
 // ------------------------------------
 // Watch Task
@@ -36,7 +36,7 @@ gulp.task('watch', function() {
   gulp.watch(paths.styles, ['styles']);
   gulp.watch(paths.scripts, ['scripts']);
   gulp.watch(paths.images, ['images']);
-  gulp.watch(paths.templates, ['templates']);
+  // gulp.watch(paths.templates, ['templates']);
 
 });
 
@@ -71,7 +71,7 @@ gulp.task('scripts', function() {
 gulp.task('images', function() {
 
   gulp.src(paths.images)
-    .pipe(imagemin())
+    // .pipe(imagemin())
     .pipe(gulp.dest('./public/assets/images/'))
 
 });
@@ -80,12 +80,8 @@ gulp.task('images', function() {
 // Templates Task
 // ------------------------------------
 
-gulp.task('templates', function() {
-
-  gulp.src(paths.templates)
-    .pipe(jade({ pretty: true }))
-    .pipe(gulp.dest('./public/'))
-
-});
-
-
+// gulp.task('templates', function() {
+//   gulp.src(paths.templates)
+//     .pipe(jade({ pretty: true }))
+//     .pipe(gulp.dest('./public/'))
+// });
