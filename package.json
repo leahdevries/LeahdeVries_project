@@ -1,0 +1,33 @@
+{
+  "name": "Twitter",
+  "description": "Leah de Vries Twitter API socket project",
+  "version": "0.0.0",
+  "homepage": "www.leahdevries.com",
+  "author": "Leah de Vries",
+  "main": "server.js",
+  "dependencies": {
+    "express": "*",
+    "ntwitter": "^0.5.0",
+    "socket.io": "*",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "underscore": "*",
+    "jade": "*",
+    "gulp": "*",
+    "gulp-if": "*",
+    "gulp-debug": "*",
+    "gulp-util": "*",
+    "gulp-load-plugins": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-imagemin": "*",
+    "gulp-livereload": "*",
+    "gulp-concat": "*",
+    "gulp-jade": "*",
+    "gulp-rename": "*"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  }
+}

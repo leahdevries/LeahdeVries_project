@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ntwitter', '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json Twitter@0.0.0 No repository field.
+5 warn package.json Twitter@0.0.0 No README data
+6 warn package.json Twitter@0.0.0 homepage field must start with a protocol.
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'ntwitter', null ]
+9 verbose cache add name=undefined spec="ntwitter" args=["ntwitter",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'ntwitter',
+10 verbose parsed url   path: 'ntwitter',
+10 verbose parsed url   href: 'ntwitter' }
+11 silly lockFile 2bfbd1a3-ntwitter ntwitter
+12 verbose lock ntwitter /Users/dustingamble/.npm/2bfbd1a3-ntwitter.lock
+13 silly lockFile 2bfbd1a3-ntwitter ntwitter
+14 error Error: Attempt to unlock ntwitter, which hasn't been locked
+14 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+14 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-local.js:30:5)
+14 error     at /usr/local/lib/node_modules/npm/lib/cache/add-local.js:47:20
+14 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+14 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+14 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+14 error     at Object.oncomplete (fs.js:107:15)
+15 error If you need help, you may report this *entire* log,
+15 error including the npm and node versions, at:
+15 error     <http://github.com/npm/npm/issues>
+16 error System Darwin 14.0.0
+17 error command "node" "/usr/local/bin/npm" "install" "ntwitter" "--save"
+18 error cwd /Users/dustingamble/Desktop/LeahdeVries_project
+19 error node -v v0.10.32
+20 error npm -v 1.4.28
+21 verbose exit [ 1, true ]
