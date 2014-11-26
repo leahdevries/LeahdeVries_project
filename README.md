@@ -2,13 +2,10 @@ LeahdeVries_project
 Version 1.0 11/25/2014
 ===================
 
-===================
-GENERAL USAGE NOTES
-===================
+##GENERAL USAGE NOTES
 
-===================
-INTRODUCTION
-===================
+## INTRODUCTION
+
 This app showcases the use of twitter cashtags on a heatmap
 - with the help of Dillon Buchanan's tutorial
 - shows recent tweets of said cashtags
@@ -16,9 +13,8 @@ This app showcases the use of twitter cashtags on a heatmap
 Written with JADE and SASS using socket.io and node.js
 
 
-===================
-INSTALLATION
-===================
+
+## INSTALLATION
 
 Use the Terminal utility to run the command-line version (The
 Terminal utility is in the Mac OS X Applications / Utilities
@@ -28,9 +24,9 @@ folder.)
 - Install and run gulp through command line.
 - Start node server.
 
-===================
+
 ## License
-===================
+
 Copyright (c) 2013 Leah de Vries
 www.leahdevries.com
 devries.leah@gmail.com
