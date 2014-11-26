@@ -29,8 +29,8 @@ var watchSymbols = ['$msft', '$intc', '$hpq', '$goog', '$nok', '$nvda', '$bac', 
 //Total number of tweets received
 var watchList = {
     total: 0,
-    symbols: {}
-    //tweets: []
+    symbols: {},
+    tweets: []
 };
 
 //Setting the watch symbols to zero
