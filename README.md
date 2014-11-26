@@ -2,27 +2,26 @@ LeahdeVries_project
 Version 1.0 11/25/2014
 ===================
 
-##GENERAL USAGE NOTES
+Twitter Heatmap and News Feed showcases Twitter cashtags on a heatmap (with the help of Dillon Buchanan's tutorial) and real-time tweets. Built with [Node.JS]( www.nodejs.org ) using Twitter's OAUTH and Live Streaming API.
 
-## INTRODUCTION
-
-This app showcases the use of twitter cashtags on a heatmap
-- with the help of Dillon Buchanan's tutorial
-- shows recent tweets of said cashtags
-
-Written with JADE and SASS using socket.io and node.js
-
-
+##ABOUT
+The Twitter Heatmap and News Feed was created to gain an understanding of node.js and socket.io. This is a fun way to keep track of your stocks and utilizes the Twitter API. This app was built using pre-processors [Jade](http://jade-lang.com/) and [SASS](http://sass-lang.com/) with the help of [Gulp](http://gulpjs.com/), which are all awesome, and you should totally try them out if you haven't yet. 
 
 ## INSTALLATION
 
-Use the Terminal utility to run the command-line version (The
+1. To install the Twitter Heatmap and News Feed, download the file and unzip. Using the command line, navigate to the folder
+
+2. You can use the Terminal utility to run the command-line version (The
 Terminal utility is in the Mac OS X Applications / Utilities
 folder.)
 
-- Download and install node.js. For instructions (to download follow this link: http://nodejs.org/)
-- Install and run gulp through command line.
-- Start node server.
+3. Install all node modules by typing ```npm install```
+
+4. You will need to install Gulp globally as well ```npm install gulp -g```
+
+5. To compile the JADE and SASS files to HTML and CSS run ```gulp``` then ```gulp watch```
+
+5. Run your server by typing ```node server.js``` and typing in your browser ```localhost:3000```
 
 
 ## License
