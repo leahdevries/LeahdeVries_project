@@ -23,6 +23,8 @@ folder.)
 
 5. Run your server by typing ```node server.js``` and typing in your browser ```localhost:3000```
 
+6. To get a Twitter secret key, click [here](https://dev.twitter.com/apps/new). Fill out the form and submit.
+
 
 ## License
 
