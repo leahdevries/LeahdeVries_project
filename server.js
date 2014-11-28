@@ -58,10 +58,10 @@ io.on('connection', function(socket){
 ///////////////////////////////////
 
 var twit = new twitter({
-    consumer_key: 'tE1mQjKYv6CtJRcsvauOOCkCo', 
-    consumer_secret: 'n1TfXkYI4GLIn21dAA7E9iIlvF8TANDdU34TRTbhAT6mJIaR3B',
-    access_token_key: '565989536-dyQWsqolaVa013AX3tX1Xee4QY2hcYORIHqjTIHK', 
-    access_token_secret: 'cZgGyLwixYnpTcVfFhteeF3BR3Wxb8NwiGrFUz5a5k0ak'
+    // consumer_key: [INSERT KEY HERE], 
+    // consumer_secret: [INSERT KEY HERE],
+    // access_token_key: [INSERT KEY HERE], 
+    // access_token_secret: [INSERT KEY HERE]
 });
 
 
@@ -74,7 +74,6 @@ twit.stream('statuses/filter', { track: watchSymbols }, function(stream) {
 
   //Watching 'data' event for incomming tweets.
   stream.on('data', function(tweet) {
-    // console.log(tweet);
 
     //Indicate whether a symbol was actually mentioned.
     var claimed = false;
